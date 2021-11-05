@@ -1,6 +1,16 @@
 #opencv --> comp vision
 
-import cv2
-#img = cv2.imread("pic1.png)
-print("hey")
+import os
+
+num = os.getcwd()
+
+os.chdir(num+ "/photo")
+
+num = os.getcwd()
+
+list = os.listdir(num)
+
+for i in range(len(list)):
+    print(list[i])
+
 
